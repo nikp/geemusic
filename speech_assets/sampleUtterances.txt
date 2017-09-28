@@ -1,5 +1,7 @@
 GeeMusicPlayArtistIntent Play artist {artist_name}
+GeeMusicPlayArtistIntent Play something by {artist_name}
 GeeMusicPlayArtistIntent Play songs by {artist_name}
+GeeMusicPlayArtistIntent Play a song by {artist_name}
 GeeMusicPlayArtistIntent Play top songs by {artist_name}
 GeeMusicPlayArtistIntent Play top tracks by {artist_name}
 GeeMusicPlayArtistIntent Play music by {artist_name}
@@ -56,13 +58,16 @@ GeeMusicCurrentlyPlayingIntent What is the name of this song
 GeeMusicCurrentlyPlayingIntent What is this
 
 GeeMusicQueueSongIntent Next play the song {song_name}
+GeeMusicQueueSongIntent Add {song_name} to queue
 GeeMusicQueueSongIntent Next play song {song_name}
 GeeMusicQueueSongIntent Next play the song {song_name} by {artist_name}
 GeeMusicQueueSongIntent Next play song {song_name} by {artist_name}
 GeeMusicQueueSongIntent Next play {song_name}
 GeeMusicQueueSongIntent Next play {song_name} by {artist_name}
 GeeMusicQueueSongIntent Queue {song_name}
+GeeMusicQueueSongIntent Queue up {song_name}
 GeeMusicQueueSongIntent Queue {song_name} by {artist_name}
+GeeMusicQueueSongIntent Queue up {song_name} by {artist_name}
 
 GeeMusicThumbsUpIntent Up vote
 GeeMusicThumbsUpIntent Up vote this
